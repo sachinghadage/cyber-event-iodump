@@ -1,0 +1,30 @@
+/* .container-1{
+    position: relative;
+}
+.bg-img{
+
+
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    position:relative ;
+    background-repeat: no-repeat;
+    background-image: url("../assets/home/homebody2.jpg");
+    background-size:     cover;  
+} */
+
+.container-2-img{
+    position: relative;
+    height: 550px;
+    background-image: url("../assets/home/homebody2.jpg");
+    background-repeat: no-repeat;
+    border: solid black;
+    background-size: cover;
+    opacity: 30%;
+}
+
+.container-2 h1{
+    position: relative;
+    top: -300px;
+
+}

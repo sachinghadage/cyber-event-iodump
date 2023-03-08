@@ -1,0 +1,23 @@
+.bg{
+
+
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    position:relative ;
+    background-repeat: no-repeat;
+    background-image: url("../assets/home/head.jpg");
+    background-size:     cover;  
+}
+
+ .text{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+
+}
+/* 
+.body-1{
+    position: relative;
+} */

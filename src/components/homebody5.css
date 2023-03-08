@@ -1,0 +1,15 @@
+.container-5{
+    height: 200px;
+    width: 300px;
+    border: solid rgb(199, 78, 78);
+}
+
+.places-container{
+    display: flex;
+    justify-content: center;
+}
+
+.places{
+    margin: 40px;
+    
+}
