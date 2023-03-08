@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import "../components/homebody3.css";
+import "../components/applications.css";
 
-export default class homebody3 extends Component {
+export default class applications extends Component {
   render() {
     return (
       <div className='container-3'>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import "./homebody2.css";
+import "../components/parallax.css";
 
-export default class homebody2 extends Component {
+export default class parallax extends Component {
   render() {
     return (
         <div className='container-2'>

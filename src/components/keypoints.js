@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../components/homebody4.css";
+import "../components/keypoints.css";
 
-export default class homebody4 extends Component {
+export default class keypoints extends Component {
   render() {
     return (
       <div className="container-4 ">

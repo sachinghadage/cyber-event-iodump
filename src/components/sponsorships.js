@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import "../components/homebody8.css";
+import "../components/sponsorships.css";
 
-export default class homebody8 extends Component {
+export default class sponsorships extends Component {
   render() {
     return (
       <div className='container-8'>

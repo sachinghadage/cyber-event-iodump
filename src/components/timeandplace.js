@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../components/homebody1.css";
+import "../components/timeandplace.css";
 
-export default class homebody1 extends Component {
+export default class timeandplace extends Component {
   render() {
     return (
       <>

@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import "../components/homebody6.css";
+import "../components/timeline.css";
 
 import Card from 'react-bootstrap/Card';
+import "../components/timeline.css";
 
-export default class homebody6 extends Component {
+export default class timeline extends Component {
   render() {
     return (
       <div className='container-6'> 

@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import "./home.css"
 
-import Navbar from "../components/Navbar";
-import Homebody1 from "../components/homebody1"
-import Homebody0 from "../components/homebody0"
-import Homebody2 from "../components/homebody2"
-import Homebody3 from "../components/homebody3"
-import Homebody4 from "../components/homebody4"
-import Homebody5 from "../components/homebody5"
-import Homebody6 from "../components/homebody6"
-import Homebody7 from "../components/homebody7"
-import Homebody8 from "../components/homebody8"
+import Hero from "../components/hero";
+import TimeAndPlace from "../components/timeandplace"
+import Speaker from "../components/Speaker"
+import Parallax from "../components/parallax"
+import Applications from "../components/applications"
+import KeyPoints from "../components/keypoints"
+import TimeLine from "../components/timeline"
+import Sponsorships from "../components/sponsorships"
+import Footer from "../components/footer"
+
 
 export default class home extends Component {
   render() {
@@ -18,16 +18,15 @@ export default class home extends Component {
       
       <div>
        
-        <Homebody0/>
-        <Homebody1/>
-        {/* <div className="fixed-img"></div> */}
-        <Homebody2/>
-        <Homebody3 />
-        <Homebody4 />
-        <Homebody5 />
-        <Homebody6 />
-        <Homebody7 />
-        <Homebody8 />
+        <Hero/>
+        <TimeAndPlace/>
+        <Speaker/>
+        <Parallax />
+        <Applications />
+        <KeyPoints />
+        <TimeLine />
+        <Sponsorships />
+        <Footer />
 
       </div>
     );

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./NavbarStyles.css";
+import "./Navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,8 +7,6 @@ import Button from "react-bootstrap/Button";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from "../routes/Home";
-import Speakers from "../routes/Speakers";
-import Program from "../routes/Program";
 import Booking from "../routes/booking"
 
 class NavbarC extends Component {
@@ -21,7 +19,7 @@ class NavbarC extends Component {
               <Navbar.Brand href="">PuneDao</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                {/* <Nav className="me-auto">
                   <Nav.Link as={Link} to={""}>
                     Home
                   </Nav.Link>
@@ -32,7 +30,7 @@ class NavbarC extends Component {
                     Speaker
                   </Nav.Link>
                   <Button variant="primary" as={Link} to={"/booking"}>BookTickets</Button>{" "}
-                </Nav>
+                </Nav> */}
               </Navbar.Collapse>
             </Container>
           </Navbar>
@@ -40,8 +38,6 @@ class NavbarC extends Component {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/speakers" element={<Speakers />} />
-            <Route path="/program" element={<Program />} />
             <Route path="/booking" element={<Booking />} />
           </Routes>
         </div>
