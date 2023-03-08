@@ -5,9 +5,10 @@
     left: 10%;
     margin: 5px;
     position: relative;
-    left: 10%;
+
     margin-top: 30px;
     padding: 5px;
+    display: flex;
 }
 
 .container-1{
@@ -17,12 +18,29 @@
 .text-content {
     border: solid rgb(243, 236, 227);
     height: 200px;
-    width: 600px;
+    width: 507px;
     position: relative;
-    left: 45%;
-    top: -235px;
-    
-    display: block;
+    left: 20%;
+    top: -150px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+    .container-1{
+        display: block;
+        margin-top: 20px;
+    }
+    .when{
+        display: block;
+    }
+    .text-content{
+        display: block;
+    top: auto;
+    left: auto;
+    width: auto;
+    margin-top: inherit;
+    padding: 15px;
+    }
 }
 
 

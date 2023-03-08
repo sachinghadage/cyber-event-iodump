@@ -19,12 +19,27 @@
     background-image: url("../assets/home/homebody2.jpg");
     background-repeat: no-repeat;
     border: solid black;
+   
     background-size: cover;
-    opacity: 30%;
+    opacity: 60%;
 }
 
-.container-2 h1{
-    position: relative;
-    top: -300px;
+.container-2-img h1{
+    position: absolute;
+    display: contents;
+    color: rgb(228, 216, 216);
+    top: 50%;
+    margin-top: 50px;
 
 }
+
+@media screen and (max-width: 767px) {
+    .container-2-img {
+      height: 200px;
+      margin-top: 50px;
+    }
+    .text{
+        top: 40%;
+        left: 6%;
+    }
+  }

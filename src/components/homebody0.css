@@ -14,6 +14,7 @@
     position: absolute;
     top: 50%;
     left: 35%;
+    color: rgb(227, 232, 238);
 
 
 }
@@ -21,3 +22,13 @@
 .body-1{
     position: relative;
 } */
+
+@media screen and (max-width: 767px) {
+    .bg {
+      height: 200px;
+    }
+    .text{
+        top: 40%;
+        left: 6%;
+    }
+  }

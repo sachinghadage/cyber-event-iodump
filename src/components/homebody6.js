@@ -11,7 +11,8 @@ export default class homebody6 extends Component {
       <h5>Conference</h5>
       <h1>Timeline</h1>
       <p>I'm a text box. Double click me to edit the text or to change the way I look.</p>
-      <Card style={{ width: '18rem' }}>
+    
+      <Card className='cards' style={{ width: '18rem' }}>
       <Card.Img variant="top" src="../assets/home/timeline/2.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -22,8 +23,11 @@ export default class homebody6 extends Component {
         
       </Card.Body>
     </Card>
+     
+      
 
-    <Card style={{ width: '18rem' }}>
+      
+      <Card className='cards' style={{ width: '18rem' }}>
       <Card.Img variant="top" src="../assets/home/timeline/2.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -34,8 +38,10 @@ export default class homebody6 extends Component {
         
       </Card.Body>
     </Card>
+     
 
-    <Card style={{ width: '18rem' }}>
+
+      <Card className='cards' style={{ width: '18rem' }}>
       <Card.Img variant="top" src="../assets/home/timeline/2.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -46,6 +52,7 @@ export default class homebody6 extends Component {
         
       </Card.Body>
     </Card>
+    
       </div>
     )
   }

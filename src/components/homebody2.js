@@ -6,8 +6,9 @@ export default class homebody2 extends Component {
     return (
         <div className='container-2'>
             <div className='container-2-img'>
-            </div>
             <h1>Hack for secure</h1>
+            </div>
+           
             
       </div>
        

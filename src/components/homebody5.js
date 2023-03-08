@@ -4,7 +4,7 @@ import "../components/homebody5.css";
 export default class homebody5 extends Component {
   render() {
     return (
-      <div container-5>
+      <div className="container-5">
         <div className='places-container'>
         <div className='places'>
         <h4>Texas, US</h4>

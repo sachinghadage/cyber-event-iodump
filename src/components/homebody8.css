@@ -1,5 +1,6 @@
 .container-8{
-    height: 500px;
+    height: fit-content;
     border: solid rgb(241, 196, 196);
     margin-top: 10px;
+    position: relative;
 }

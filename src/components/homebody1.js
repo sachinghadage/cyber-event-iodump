@@ -7,11 +7,11 @@ export default class homebody1 extends Component {
       <>
         <div className="container-1">
           <div className="when">
-            <h3>when</h3>
+            <h3>when </h3>
             <h3>May 06-07th 2023</h3>
           </div>
           <div className="when">
-            <h3>where</h3>
+            <h3>where </h3>
             <h3>May 06-07th 2023</h3>
           </div>
           <div className="text-content">

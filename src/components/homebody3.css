@@ -2,6 +2,7 @@
     position: relative;
     height: 550px;
     border: solid rgb(238, 198, 198);
+    margin-top: 50px;
    
 }
 
@@ -12,3 +13,13 @@
 .container-3 p{
     display: inline;
 } */
+
+@media screen and (max-width: 767px) {
+    .container-3 {
+      height: 500px;
+      margin-top: 50px;
+      
+    }
+
+  }
+
