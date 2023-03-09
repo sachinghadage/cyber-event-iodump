@@ -5,18 +5,23 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import myLogo from "../assets/home/Navbar/PuneDAO.webp";
 
 import Home from "../routes/Home";
-import Booking from "../routes/booking"
+import Booking from "../routes/booking";
 
 class NavbarC extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Navbar bg="dark" variant="dark" expand="lg">
+        <div > 
+          <Navbar bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand href="" as={Link} to={""}>PuneDao</Navbar.Brand>
+              <Navbar.Brand href="" as={Link} to={""}>
+                <div className="logo">
+                  <img src={myLogo} alt="" width={182} height={64} />
+                </div>
+              </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 {/* <Nav className="me-auto">
